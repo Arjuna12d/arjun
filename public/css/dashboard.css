@@ -1,0 +1,204 @@
+body {
+    background-image: url('/img/tes.png'); /* Path ke gambar background */
+    background-size: cover; /* Menyesuaikan ukuran gambar sesuai dengan layar */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+    
+    
+   
+    height: 0vh; /* Menjamin bahwa body minimal setinggi layar */
+   
+}
+
+.saldo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 125px; /* Distance from the top of the viewport */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    z-index: 10; /* Memastikan elemen ini berada di atas elemen lainnya */
+}
+
+.saldo .coin {
+    font-size: 73px;
+    margin-top: -40px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin-top: 450px; /* Menyesuaikan jarak sesuai kebutuhan */
+    z-index: 10; /* Memastikan elemen ini berada di atas elemen lainnya */
+}
+
+.menu {
+   
+    gap: 20px; /* Jarak antara tombol-tombol */
+    margin-top: -140px; /* Sesuaikan jika perlu */
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 21px;
+    padding: 5px 19px; /* Padding untuk tombol */
+}
+
+
+
+.img1 {
+    position: absolute;
+    margin-top: -355px;
+    margin-left: 980px;
+}
+.img2{
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 220px;
+}
+
+.img3{
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 2220px;
+}
+
+.logo {
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 20px;
+}
+
+.tes {
+    margin-top: 100px;
+}
+
+.bro {
+    margin-top: 70px;
+    width: 100%;
+    height: 580px;
+    background-color: #fcfcfc; /* Warna hijau */
+    border: 1px solid #f0f0f0; /* Garis tepi hitam */
+
+}
+
+.bro1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.bro2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.bro {
+    text-align: center; /* Memastikan teks di dalam elemen dengan kelas bro rata tengah */
+}
+
+.container {
+    display: flex;              /* Mengaktifkan Flexbox */
+    justify-content: center;   /* Menempatkan elemen di tengah secara horizontal */
+    align-items: center;       /* Menempatkan elemen di tengah secara vertikal (opsional) */
+    gap: 200px;                 /* Jarak antara elemen (opsional) */
+    margin-top: 50px;
+}
+
+.bro3, .bro4, .bro5 {
+    display: flex;            
+    flex-direction: column;   
+    align-items: center;       
+    text-align: center;        
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+
+.top {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 50px;
+}
+
+.pro {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 1100px;
+}
+
+.buta1 {
+    display: flex;
+    justify-content: center; /* Menengah secara horizontal */
+    align-items: center; /* Menengah secara vertikal */
+    gap: 10px; /* Jarak antar tombol */
+    padding: 20px; /* Tambahkan padding jika perlu */
+    margin-top: 20px; /* Jarak dari elemen sebelumnya */
+}
+.jun {
+    display: flex;
+    justify-content: center; /* Mengatur tombol agar berada di tengah secara horizontal */
+    align-items: center; /* Menyusun tombol dalam satu baris */
+    gap: 10px; /* Menambahkan jarak antara tombol */
+    position: relative; /* Membutuhkan positioning relatif untuk tombol bulat */
+}
+
+.jun button {
+    width: 170px; /* Lebar tombol */
+    height: 50px; /* Tinggi tombol */
+    border-radius: 25px; /* Sudut melengkung lebih besar dari default */
+    font-size: 16px; /* Ukuran font */
+    border: none; /* Menghapus border default */
+    cursor: pointer; /* Pointer cursor saat hover */
+    transition: background-color 0.3s ease; /* Transisi halus untuk warna background */
+    display: flex; /* Flexbox untuk memusatkan teks */
+    align-items: center; /* Memusatkan teks secara vertikal */
+    justify-content: center; /* Memusatkan teks secara horizontal */
+    margin-top: -1350px;
+}
+
+.jun .jun1 {
+    width: 57px; /* Lebar tombol bulat */
+    height: 57px; /* Tinggi tombol bulat */
+    border-radius: 50%; /* Membuat tombol menjadi bulat */
+    background-image: url('/img/poto.png'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Menutupi seluruh area tombol */
+    background-position: center; /* Menempatkan gambar di tengah tombol */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+   
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Tambahkan efek bayangan jika diinginkan */
+    position: absolute; /* Mengatur posisi tombol bulat */
+    z-index: 10; /* Memastikan tombol bulat berada di atas tombol lainnya */
+    cursor: pointer; /* Pointer cursor saat hover */
+    transition: transform 0.3s ease; /* Transisi halus untuk efek hover */
+}
+
+
+
+.jun3 {
+    background-color: rgba(242, 159, 105, 1);
+}
+.jun2 {
+    background-color: rgba(88, 159, 249, 1);
+    
+}
+
+/* Tombol "Minta Saldo" */
+
+
+/* Tombol "Isi Saldo" */
+.jun .jun1 {
+    margin-right: -10px; /* Menambahkan jarak negatif untuk mendekatkan tombol */
+}
+
+/* Tombol "Minta Saldo" */
+.jun .jun3 {
+    margin-left: -20px; /* Menambahkan jarak negatif untuk mendekatkan tombol */
+}
+
+
+.jun button:not(.jun1):hover {
+    background-color: rgba(255, 232, 24, 1); /* Warna latar belakang saat hover untuk tombol lainnya */
+}
